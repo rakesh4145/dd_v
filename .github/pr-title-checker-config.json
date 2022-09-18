@@ -1,16 +1,15 @@
 {
   "LABEL": {
-    "name": "checking for Proprt tags in ",
+    "name": "checking for Proper tags in PR  ",
     "color": "EEEEEE"
   },
   "CHECKS": {
-    "prefixes": ["fix: ", "feat: "],
     "regexp": "JIRA",
     "regexpFlags": "i",
     "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
   },
   "MESSAGES": {
-    "success": "All OK",
+    "success": "All OK.. Tags Found ",
     "failure": "Failing CI test",
     "notice": ""
   }
